@@ -61,20 +61,20 @@ function anaTovori(ana){
     console.log(tourDetails);
     // // finish problem 3//
     // // problem 4//
-    // myArray = ['touhid','raihan','jamil','hafez']
-    // function oddFriend(myArray){
-    // // bonuspart error handling//
-    // if(typeof myArray == 'number'){
-    // return 'error';
-    // }
-    // for(let i = 0; i <= myArray.length; i++){
-    // var element = myArray[i];
-    // if(element.length % 2 != 0){
-    // break;
-    // }
-    // }
-    // return element;
-    // }
-    // var oddCharacter = oddFriend(myArray);
-    // console.log(oddCharacter);
+    myArray = ['touhid','raihan','jamil','hafez']
+    function oddFriend(myArray){
+    // bonuspart error handling//
+    if(typeof myArray == 'number'){
+    return 'error';
+    }
+    for(let i = 0; i < myArray.length; i++){
+    var element = myArray[i];
+    if(element.length % 2 != 0){
+    break;
+    }
+    }
+    return element;
+    }
+    var oddCharacter = oddFriend(myArray);
+    console.log(oddCharacter);
     
