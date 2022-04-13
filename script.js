@@ -28,37 +28,37 @@ function anaTovori(ana){
     console.log(finalCost);
     // finish problem 2//
     // // problem 3//
-    // function picnicBudget(number){
-    // // bonus part error handling//
-    // if(typeof number == 'boolean'){
-    // return 'error';
-    // }
-    // // given that//
-    // const first100 = 5000;
-    // const second100 = 4000;
-    // const uptoSecond100 = 3000;
-    // if(number <= 100){
-    // const first100Cost = number * first100;
-    // return first100Cost;
-    // }
-    // else if(number <= 200){
-    // const first100TourCost = 100 * first100;
-    // const extraTourist = number - 100;
-    // const second100TourCost = extraTourist * second100;
-    // const totalBudget = first100TourCost + second100TourCost;
-    // return totalBudget;
-    // }
-    // else{
-    // const first100TourCost = 100 * first100;
-    // const second100TourCost = 100 * second100;
-    // const additionalTourist = number - 200;
-    // const uptoSecond100TourCost = additionalTourist * uptoSecond100;
-    // const finalBudget = first100TourCost + second100TourCost + uptoSecond100TourCost;
-    // return finalBudget;
-    // }
-    // }
-    // const tourDetails = picnicBudget(201);
-    // console.log(tourDetails);
+    function picnicBudget(number){
+    // bonus part error handling//
+    if(typeof number == 'boolean'){
+    return 'error';
+    }
+    // given that//
+    const first100 = 5000;
+    const second100 = 4000;
+    const uptoSecond100 = 3000;
+    if(number <= 100){
+    const first100Cost = number * first100;
+    return first100Cost;
+    }
+    else if(number <= 200){
+    const first100TourCost = 100 * first100;
+    const extraTourist = number - 100;
+    const second100TourCost = extraTourist * second100;
+    const totalBudget = first100TourCost + second100TourCost;
+    return totalBudget;
+    }
+    else{
+    const first100TourCost = 100 * first100;
+    const second100TourCost = 100 * second100;
+    const additionalTourist = number - 200;
+    const uptoSecond100TourCost = additionalTourist * uptoSecond100;
+    const finalBudget = first100TourCost + second100TourCost + uptoSecond100TourCost;
+    return finalBudget;
+    }
+    }
+    const tourDetails = picnicBudget(201);
+    console.log(tourDetails);
     // // finish problem 3//
     // // problem 4//
     // myArray = ['touhid','raihan','jamil','hafez']
