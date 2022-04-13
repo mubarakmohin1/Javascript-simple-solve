@@ -11,22 +11,22 @@ function anaTovori(ana){
     const voriQuantity = anaTovori(16);
     console.log(voriQuantity);
     // finish problem 1///
-    // // problem 2///
-    // function pandaCost(quant1,quant2,quant3){
-    // // bonuspart error handling//
-    // if(typeof (quant1||quant2||quant3) == 'boolean'){
-    // return 'error';
-    // }
-    // // given that//
-    // const singaraPrice = 7;
-    // const samucaPrice = 10;
-    // const jilapiPrice = 15;
-    // const totalCost = singaraPrice * quant1 + samucaPrice * quant2 + jilapiPrice * quant3;
-    // return totalCost;
-    // }
-    // const finalCost = pandaCost(1,1,1);
-    // console.log(finalCost);
-    // // finish problem 2//
+    // problem 2///
+    function pandaCost(quant1,quant2,quant3){
+    // bonuspart error handling//
+    if(typeof (quant1||quant2||quant3) == 'boolean'){
+    return 'error';
+    }
+    // given that//
+    const singaraPrice = 7;
+    const samucaPrice = 10;
+    const jilapiPrice = 15;
+    const totalCost = singaraPrice * quant1 + samucaPrice * quant2 + jilapiPrice * quant3;
+    return totalCost;
+    }
+    const finalCost = pandaCost(1,1,1);
+    console.log(finalCost);
+    // finish problem 2//
     // // problem 3//
     // function picnicBudget(number){
     // // bonus part error handling//
